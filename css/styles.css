@@ -8,7 +8,7 @@
 body
 {
     font-family: 'roboto', sans-serif;
-    font-weight: 400;
+    color: var(--primary-text-color);
 }
 
 .link
@@ -43,7 +43,7 @@ body
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: inherit
 }
 .header-list-link:hover,
 .header-list-link:focus
@@ -71,7 +71,7 @@ body
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color)
+    color: inherit
 }
 /*--------------Hero-------------*/
 .hero
@@ -90,12 +90,14 @@ body
 }
 .hero-btn
 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    font-family: inherit;
+    cursor: pointer;
 }
 
 /*--------------Benefits-------------*/
@@ -106,11 +108,10 @@ body
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color);
+    color: inherit
 }
 .benefits-item-text
 {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -126,7 +127,7 @@ body
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: inherit
 }
 .team-item-text
 {
@@ -153,5 +154,10 @@ body
 .footer-link-adress
 {
     color: #FFFFFF;
+}
+.footer-link:hover,
+.footer-link:focus
+{
+    color: var(--secondary-text-color);
 }
 
