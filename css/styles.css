@@ -161,3 +161,36 @@ body
     color: var(--secondary-text-color);
 }
 
+
+.portfolio-button-item
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+    color: inherit;
+}
+.portfolio-button-item:hover,
+.portfolio-button-item:focus
+{
+    color: #FFFFFF;
+}
+.portfolio-content-title
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: inherit;
+}
+
+.portfolio-content-text
+{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--third-text-color);
+}
+
